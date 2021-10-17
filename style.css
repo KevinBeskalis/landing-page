@@ -1,0 +1,97 @@
+body {
+    background-color: #CED4DA;
+}
+#header {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 85px;
+    text-align: center;
+    background-color: #6C757D;
+}
+#header-img, #title{
+    height: 80px;
+    width: 60px;
+    float: left;
+    margin-left: 20px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+li {
+    list-style-type: none;
+    padding: 0px;
+    height: 70px;
+    margin: 8px;
+    display: inline;
+  }
+.nav-link {
+    color: black;
+    font-size: 16px;
+    font-family: monospace;
+    text-decoration: none;
+    line-height: 50px;
+  }
+main {
+      margin-top: 80px;
+  }
+#trophies {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0px;
+      width: 100%;
+  }
+figure {
+    display: inline-block;
+    border: 3px solid black;
+}
+figure figcaption {
+    font-size: 18px;
+    text-align: center;
+    background-color: #ADB5BD;
+}
+#kits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+img[alt="Zamalek kit"] {
+    width: 100%;
+}
+#info {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 40%;
+}
+input{
+    width: 100%;
+}
+iframe{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 1000px) {
+    #trophies {
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+    }
+    iframe {
+        max-width: 100%;
+    }
+}
