@@ -65,10 +65,11 @@ figure figcaption {
 img[alt="Zamalek kit"] {
     width: 100%;
 }
-#info {
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
+section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 form{
     display: block;
