@@ -1,5 +1,6 @@
-body {
+html, body {
     background-color: #CED4DA;
+    scroll-padding: 70px 0px 0px 50px;
 }
 #header {
     overflow: hidden;
